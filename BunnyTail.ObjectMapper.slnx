@@ -12,7 +12,9 @@
     <File Path="README.md" />
     <File Path="test.runsettings" />
   </Folder>
-  <Project Path="BunnyTail.ObjectMapper/BunnyTail.ObjectMapper.csproj" />
+  <Project Path="BunnyTail.ObjectMapper/BunnyTail.ObjectMapper.csproj">
+    <BuildDependency Project="BunnyTail.ObjectMapper.Generator/BunnyTail.ObjectMapper.Generator.csproj" />
+  </Project>
   <Project Path="BunnyTail.ObjectMapper.Generator/BunnyTail.ObjectMapper.Generator.csproj" />
   <Project Path="BunnyTail.ObjectMapper.Tests/BunnyTail.ObjectMapper.Tests.csproj" />
   <Project Path="Develop/Develop.csproj" />
