@@ -6,11 +6,11 @@
     <File Path="Analyzers.ruleset" />
     <File Path="BunnyTail.ObjectMapper.props" />
     <File Path="BunnyTail.ObjectMapper.sln.DotSettings" />
+    <File Path="CodeCoverage.runsettings" />
     <File Path="Directory.Build.props" />
     <File Path="Directory.Build.targets" />
     <File Path="LICENSE" />
     <File Path="README.md" />
-    <File Path="test.runsettings" />
   </Folder>
   <Project Path="BunnyTail.ObjectMapper/BunnyTail.ObjectMapper.csproj">
     <BuildDependency Project="BunnyTail.ObjectMapper.Generator/BunnyTail.ObjectMapper.Generator.csproj" />
